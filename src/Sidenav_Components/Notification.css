@@ -1,0 +1,46 @@
+.container {
+    margin: 10vh 5vw;
+    padding: 30px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.container > span {
+    font-size: 2rem;
+    margin-left: 6px;
+}
+.container > .notification__item > h4 {
+    margin-left: 14px;
+    color: gray;
+}
+.notification__item {
+    display: flex;
+    flex-direction: column;
+}
+.notification__item > .notification__element {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.notification__element > p {
+    margin: 0 20px;
+}
+.notification__element > p > span {
+    color: rgb(84, 82, 82);
+    margin-left: 5px;
+    font-weight: bold;
+}
+.notification__element > button {
+    font-size: 1rem;
+    padding-top: 10px;
+    font-weight: bolder;
+    color: #0095f6;
+    background: #000;
+    border: none;
+}
+.notification__element > button:hover {
+    color: #fff;
+}

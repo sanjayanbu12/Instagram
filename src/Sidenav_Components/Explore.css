@@ -1,0 +1,41 @@
+.explore__container {
+    width: 1200px;
+    height: 350vh;
+    margin-right: 30px;
+  }
+  
+  .explore__container > h4 {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  
+  .explore__feed {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Create 4 columns */
+    gap: 10px; /* Add some spacing between the images */
+    padding: 20px;
+  }
+  
+  .explore__feed img {
+    width: 100%; /* Make the images fill the grid items */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Add rounded corners for a nicer look */
+    overflow: hidden; /* Hide any overflowing content within the grid item */
+  }
+.search__input {
+  display: flex;
+  gap: 5px;
+  margin-left: 17px;
+}
+.search__input > input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.128);
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
